@@ -1,0 +1,25 @@
+{
+    "name": "piotr-cz/monolog-piwik-handler",
+    "description": "Piwik Handler for Monolog",
+    "homepage": "http://github.com/piotr-cz/monolog-piwik-handler",
+    "keywords": ["piwik", "monolog"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Piotr Konieczny",
+            "email": "hello@piotr.cz"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "monolog/monolog": "~1.0",
+        "piwik/piwik-php-tracker": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PiotrCz\\MonologPiwikHandler\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
