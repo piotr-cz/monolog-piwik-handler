@@ -32,7 +32,7 @@ class PiwikHandler extends AbstractProcessingHandler
     /**
      * Constructor.
      *
-     * @param PiwikTracker $piwikTracker - Pwik tracker client
+     * @param PiwikTracker $piwikTracker - Piwik tracker client
      * @param string $category - Event category
      * @param integer $level - The minimum logging level at which this handler will be triggered
      * @param boolean $bubble - Whether the messages that are handled can bubble up the stack or not
